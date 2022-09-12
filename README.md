@@ -23,7 +23,7 @@ like this:
 
 The EVK hardware and firmware are open source and available on 
 [GitHub](https://github.com/jetperch/js220_evk1).  View the 
-[schematic]([GitHub](https://github.com/jetperch/js220_evk1/hardware/js220_evk1.pdf).
+[schematic](https://github.com/jetperch/js220_evk1/blob/main/hardware/js220_evk1.pdf).
 
 The EVK produces this waveform by default.  The EVK is also very flexible.
 The EVK runs MicroPython for easy configuration and programming over a
