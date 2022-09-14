@@ -337,7 +337,7 @@ class Js220Evk1:
         i = voltage / resistance
         # print(f'i = {i}, i_max = {i_max}')
         if i > i_max:
-            raise RuntimeError(f'Current rating exceeded at {i} A > {i_max} A limit')
+            raise RuntimeError(f'Current rating exceeded at {i} A > {i_max} A limit, {voltage} V, {resistance} Ω')
 
     def resistance_mask_on(self, mask):
         """Enable the specified resistances by GPIO mask.
